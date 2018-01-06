@@ -35,7 +35,7 @@ function load(lines::Vector{String})
         if contains(line,"#")
             line = split(line, "#")[1]
         end
-        if startswith(line,"SourceCal")
+        if startswith(strip(line),"SourceCal")
             m = copy(fileset)
             push!(n,m)
         end

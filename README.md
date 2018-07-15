@@ -8,7 +8,7 @@
 [![codecov.io](http://codecov.io/github/EchoJulia/EchoviewEcs.jl/coverage.svg?branch=master)](http://codecov.io/github/EchoJulia/EchoviewEcs.jl?branch=master)
 
 
-[[Julia](http://julialang.org) package for reading [Echoview calibration
+[Julia](http://julialang.org) package for reading [Echoview calibration
 supplement (.ECS) files](http://support.echoview.com/WebHelp/Files,_filesets_and_variables/About_ECS_files.htm).
 
 

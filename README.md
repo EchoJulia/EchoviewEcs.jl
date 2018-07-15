@@ -9,7 +9,9 @@
 
 
 [Julia](http://julialang.org) package for reading [Echoview calibration
-supplement (.ECS) files](http://support.echoview.com/WebHelp/Files,_filesets_and_variables/About_ECS_files.htm).
+supplement (.ECS) files](http://support.echoview.com/WebHelp/Files,_filesets_and_variables/About_ECS_files.htm). Scientific echosounder data requires
+calibration correction, and ECS is a popular storage file format for the
+correction parameters.
 
 
 ```

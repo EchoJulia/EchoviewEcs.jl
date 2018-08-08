@@ -32,14 +32,14 @@ function load(lines::Vector{String})
     n = []
     m = fileset
     for line in lines
-        if contains(line,"#")
+        if occursin("#", line)
             line = split(line, "#")[1]
         end
         if startswith(strip(line),"SourceCal")
             m = copy(fileset)
             push!(n,m)
         end
-        if contains(line,"=") && m != nothing
+        if occursin("=", line) && m != nothing
             d = split(line, "=")
             k = strip(d[1])
             v =strip(d[2])

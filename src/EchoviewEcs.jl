@@ -1,4 +1,3 @@
-__precompile__()
 module EchoviewEcs
 
 export load
